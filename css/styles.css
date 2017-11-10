@@ -34,23 +34,27 @@
 /* line 30, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 .my-email {
   margin-top: 5px;
-  animation: rubberBand ease 1s 4s; }
+  animation: rubberBand ease 1s 9s; }
 
 /* line 34, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 .web-info {
   color: white;
   margin-top: 5px;
-  animation: rubberBand ease 1s 4.3s; }
+  animation: rubberBand ease 1s 9.3s; }
 
 /* line 40, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #main-message {
-  animation: fadeInRight ease 2s; }
+  animation: fade4 11s; }
 
 /* line 43, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
+#put-your-name-on-the-map, #build-a-brand, #make-it-happen {
+  animation: fadeInRight ease 2s; }
+
+/* line 46, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #together-we-can {
   animation: fadeInRight ease 1s; }
 
-/* line 46, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
+/* line 49, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #line-break {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
@@ -62,15 +66,125 @@
   to {
     stroke-dashoffset: 2000; } }
 
-/* line 60, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
+/* line 63, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #web-print {
   animation: fadeInRight ease 4s; }
 
-/* line 64, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
+/* line 67, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 p, a {
   font-family: 'Advent Pro', sans-serif;
   letter-spacing: 2px;
   font-size: 1.2em; }
+
+/* line 72, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
+#put-your-name-on-the-map {
+  animation: fade1 10s forwards; }
+
+@keyframes fade1 {
+  0% {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0); }
+  10% {
+    opacity: 1; }
+  20% {
+    opacity: 1;
+    transform: none; }
+  30% {
+    opacity: 1; }
+  40% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  80% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+/* line 92, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
+#make-it-happen {
+  animation: fade2 10s forwards; }
+
+@keyframes fade2 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  30% {
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  50% {
+    opacity: 1; }
+  60% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  80% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+/* line 108, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
+#build-a-brand {
+  animation: fade3 10s forwards; }
+
+@keyframes fade3 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  30% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 1; }
+  70% {
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fade4 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  30% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  80% {
+    opacity: 1; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
 
 /*!
  * animate.css -http://daneden.me/animate
