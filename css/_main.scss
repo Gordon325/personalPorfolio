@@ -1,0 +1,68 @@
+/* My CSS */
+
+.stage {
+  max-width: 1080px;
+  margin: auto;
+  margin-top: 25vh;
+}
+.contact-bar-top {
+  width: 100vw;
+  height: 32px;
+  position: fixed;
+  background: black;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.contact-bar-bottom {
+  width: 100vw;
+  height: 32px;
+  position: fixed;
+  background: black;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+.contact-me {
+  color: white;
+  text-decoration: none;
+}
+.my-email {
+  margin-top: 5px;
+  animation: rubberBand ease 1s 4s;
+}
+.web-info {
+  
+  color: white;
+  margin-top: 5px;
+  animation: rubberBand ease 1s 4.3s;
+}
+#express-yourself {
+ animation: fadeInRight ease 1s;
+}
+#let-me-help {
+ animation: fadeInRight ease 2s;
+}
+#line-break { 
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s forwards;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 2000;
+  }
+}
+#web-print {
+ animation: fadeInRight ease 4s;
+}
+
+p, a {
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.2em
+}
