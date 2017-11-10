@@ -34,17 +34,17 @@
 /* line 30, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 .my-email {
   margin-top: 5px;
-  animation: rubberBand ease 1s 9s; }
+  animation: rubberBand ease 1s 11s; }
 
 /* line 34, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 .web-info {
   color: white;
   margin-top: 5px;
-  animation: rubberBand ease 1s 9.3s; }
+  animation: rubberBand ease 1s 11.3s; }
 
 /* line 40, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #main-message {
-  animation: fade4 11s; }
+  animation: fade4 13s; }
 
 /* line 43, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #put-your-name-on-the-map, #build-a-brand, #make-it-happen {
@@ -68,7 +68,7 @@
 
 /* line 63, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #web-print {
-  animation: fadeInRight ease 4s; }
+  animation: fadeInRight ease 3s; }
 
 /* line 67, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 p, a {
@@ -78,7 +78,7 @@ p, a {
 
 /* line 72, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #put-your-name-on-the-map {
-  animation: fade1 10s forwards; }
+  animation: fade1 12s forwards; }
 
 @keyframes fade1 {
   0% {
@@ -108,7 +108,7 @@ p, a {
 
 /* line 92, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #make-it-happen {
-  animation: fade2 10s forwards; }
+  animation: fade2 12s forwards; }
 
 @keyframes fade2 {
   0% {
@@ -136,7 +136,7 @@ p, a {
 
 /* line 108, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #build-a-brand {
-  animation: fade3 10s forwards; }
+  animation: fade3 12s forwards; }
 
 @keyframes fade3 {
   0% {

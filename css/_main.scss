@@ -29,16 +29,16 @@
 }
 .my-email {
   margin-top: 5px;
-  animation: rubberBand ease 1s 9s;
+  animation: rubberBand ease 1s 11s;
 }
 .web-info {
   
   color: white;
   margin-top: 5px;
-  animation: rubberBand ease 1s 9.3s;
+  animation: rubberBand ease 1s 11.3s;
 }
 #main-message {
- animation: fade4 11s;
+ animation: fade4 13s;
 }
 #put-your-name-on-the-map, #build-a-brand, #make-it-happen {
  animation: fadeInRight ease 2s;
@@ -61,7 +61,7 @@
   }
 }
 #web-print {
- animation: fadeInRight ease 4s;
+ animation: fadeInRight ease 3s;
 }
 
 p, a {
@@ -70,7 +70,7 @@ p, a {
     font-size: 1.2em
 }
 #put-your-name-on-the-map { 
-  animation: fade1 10s forwards;
+  animation: fade1 12s forwards;
 }
 
 @keyframes fade1 {
@@ -90,7 +90,7 @@ p, a {
 }
 
 #make-it-happen {
-  animation: fade2 10s forwards;
+  animation: fade2 12s forwards;
 }
 @keyframes fade2 {
  0%{opacity: 0;}
@@ -106,7 +106,7 @@ p, a {
   100%{opacity: 0;}
 }
 #build-a-brand {
-  animation: fade3 10s forwards;
+  animation: fade3 12s forwards;
 }
 @keyframes fade3 {
  0%{opacity: 0;}
