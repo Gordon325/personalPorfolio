@@ -43,12 +43,12 @@
   animation: rubberBand ease 1s 4.3s; }
 
 /* line 40, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
-#express-yourself {
-  animation: fadeInRight ease 1s; }
+#main-message {
+  animation: fadeInRight ease 2s; }
 
 /* line 43, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
-#let-me-help {
-  animation: fadeInRight ease 2s; }
+#together-we-can {
+  animation: fadeInRight ease 1s; }
 
 /* line 46, D:/Gordon/Documents/GitHub/personalPorfolio/css/_main.scss */
 #line-break {
