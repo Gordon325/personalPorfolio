@@ -34,7 +34,7 @@ html {
     padding: 0;
 }
 
-#boxOne, .boxTwo, .boxThree, .boxFour {
+#boxOne, #boxTwo, #boxThree, #boxFour {
   height: 200px;
   width: 450px;
   margin: 0 auto;
@@ -42,23 +42,89 @@ html {
   text-align: center;
 }
 #boxOne {
-  background: Cyan;
+  background: #c10022;
   opacity: .5;
+  border-style: none;
 }
-.boxTwo {
-  background: Magenta;
+#boxTwo {
+  background: #d99528;
     opacity: .5;
+    border-style: none;
 }
-.boxThree {
-  background: yellow;
+#boxThree {
+  background: #81c341;
     opacity: .5;
+    border-style: none;
 }
-.boxFour {
-  background: white;
+#boxFour {
+  background: #21c0d8;
     opacity: .5;
+    border-style: none;
+}
+#boxOne:focus {
+  background: #fff;
+  opacity: .3;
+  border-style: none;
+}
+#boxTwo:focus {
+  background: #fff;
+    opacity: .3;
+    border-style: none;
+}
+#boxThree:focus {
+  background: #fff;
+    opacity: .3;
+    border-style: none;
+}
+#boxFour:focus {
+  background: #fff;
+    opacity: .3;
+    border-style: none;
+}
+#boxOne:hover {
+  background: #c10022;
+  opacity: .3;
+  border-style: none;
+}
+#boxTwo:hover {
+  background: #d99528;
+    opacity: .3;
+    border-style: none;
+}
+#boxThree:hover {
+  background: #81c341;
+    opacity: .3;
+    border-style: none;
+}
+#boxFour:hover {
+  background: #21c0d8;
+    opacity: .3;
+    border-style: none;
 }
 h1 {
   color: Black;
   z-index: 999;
   font-weight: 500;
+}
+
+
+.popdown:hover{
+    opacity: .7;
+}
+
+.popDownWrapper {
+    max-width: 90%;
+    margin: auto;
+        text-align: center;
+    align-content: center;
+    padding-bottom: 5px;
+}
+.popDownWrapper a {
+    color: white;
+    font-weight: 300;
+}
+.close-popdown {
+    padding: 3px 8px 3px 8px;
+    background: #c10022;
+    border-radius: 3px;
 }
