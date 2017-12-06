@@ -4,6 +4,7 @@
 @import "animate";
 @import "uikit";
 @import "uikit-rtl";
+@import "jquery.popdown";
 
 /* MY CSS */
 
@@ -33,14 +34,14 @@ html {
     padding: 0;
 }
 
-.boxOne, .boxTwo, .boxThree, .boxFour {
+#boxOne, .boxTwo, .boxThree, .boxFour {
   height: 200px;
   width: 450px;
   margin: 0 auto;
   padding: 0;
   text-align: center;
 }
-.boxOne {
+#boxOne {
   background: Cyan;
   opacity: .5;
 }
