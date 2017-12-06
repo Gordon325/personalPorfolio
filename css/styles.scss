@@ -2,3 +2,62 @@
 
 @import "main";
 @import "animate";
+@import "uikit";
+@import "uikit-rtl";
+
+/* MY CSS */
+
+html {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png");
+  background-attachment: fixed;
+}
+.body {
+  background-color: rgba(255, 255, 255, .1);
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 4px 3px 22px -1px rgba(0,0,0,0.75); 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#headerImageDiv {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.headerImage {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.boxOne, .boxTwo, .boxThree, .boxFour {
+  height: 200px;
+  width: 450px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.boxOne {
+  background: Cyan;
+  opacity: .5;
+}
+.boxTwo {
+  background: Magenta;
+    opacity: .5;
+}
+.boxThree {
+  background: yellow;
+    opacity: .5;
+}
+.boxFour {
+  background: white;
+    opacity: .5;
+}
+h1 {
+  color: Black;
+  z-index: 999;
+  font-weight: 500;
+}
