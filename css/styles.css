@@ -28548,6 +28548,6 @@ a.portfolioLink {
 
 /* line 150, css/styles.scss */
 .socialIcon {
-  width: 150px; }
+  max-width: 150px; }
 
 /*# sourceMappingURL=styles.css.map */
