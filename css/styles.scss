@@ -46,6 +46,7 @@ html {
   opacity: .5;
   border-style: none;
 }
+
 #boxTwo {
   background: #d99528;
     opacity: .5;
@@ -106,7 +107,18 @@ h1 {
   z-index: 999;
   font-weight: 500;
 }
-
+.about {
+    animation-delay: .2s;
+}
+.portfolio {
+    animation-delay: .5s;
+}
+.contact {
+    animation-delay: .8s;
+}
+.social {
+    animation-delay: 1.1s;
+}
 
 .popdown:hover{
     opacity: .7;
@@ -127,4 +139,11 @@ h1 {
     padding: 3px 8px 3px 8px;
     background: #c10022;
     border-radius: 3px;
+}
+a.portfolioLink {
+    color: #c10022;
+}
+.thumbnail {
+    margin: 3px;
+    margin-bottom: 18px;
 }
