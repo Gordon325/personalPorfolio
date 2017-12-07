@@ -1,6 +1,11 @@
-#Personal Page
+# Personal Page
 
--Based off of Web 1 Page
--Short bio
--Favorite Movies
--Favorite Book
+## Pic of Me
+
+## Small Bio (About Me)
+
+* Short Bio
+
+* Favorite Movies
+
+* Favorite Book
