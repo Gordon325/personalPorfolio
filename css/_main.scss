@@ -8,13 +8,19 @@ html {
 img {
 border-radius: 8px;
 }
+.personal_logo {
+width: 60px;
+}
 .body {
   padding-left: 12.5px;
   padding-right: 12.5px;
   max-width: 984px;
+    height: 100%;
   padding-top: 20px;
   margin: auto;
-  background: rgba(255,255,255,.6);
+  background: rgba(255,255,255,.8);
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .a_portfolio {
   margin-top: -10px;
