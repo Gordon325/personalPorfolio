@@ -1,8 +1,13 @@
 /* My CSS */
 
+.inverted {
+    filter: invert(100%);
+    display: hidden;
+}
 html {
-    background: url(/img/topography.png) !important;
+  background: url(/img/topography.png) !important;
   background-attachment: fixed;
+    
 }
 img {
 border-radius: 8px;
