@@ -9,144 +9,75 @@
 /* MY CSS */
 
 html {
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png");
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
   background-attachment: fixed;
 }
+img {
+border-radius: 8px;
+}
 .body {
-  background-color: rgba(255, 255, 255, .1);
-  width: 900px;
-  max-width: 100%;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  max-width: 984px;
+  padding-top: 20px;
   margin: auto;
-  box-shadow: 4px 3px 22px -1px rgba(0,0,0,0.75); 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  background: rgba(255,255,255,.6);
 }
-#headerImageDiv {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.a_portfolio {
+  margin-top: -10px;
+  font-size: 9.8pt;
+  margin-bottom: 67px;
 }
-.headerImage {
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#boxOne, #boxTwo, #boxThree, #boxFour {
-  height: 200px;
-  width: 450px;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-}
-#boxOne {
-  background: #c10022;
-  opacity: .5;
-  border-style: none;
-}
-
-#boxTwo {
-  background: #d99528;
-    opacity: .5;
-    border-style: none;
-}
-#boxThree {
-  background: #81c341;
-    opacity: .5;
-    border-style: none;
-}
-#boxFour {
-  background: #21c0d8;
-    opacity: .5;
-    border-style: none;
-}
-#boxOne:focus {
-  background: #fff;
-  opacity: .3;
-  border-style: none;
-}
-#boxTwo:focus {
-  background: #fff;
-    opacity: .3;
-    border-style: none;
-}
-#boxThree:focus {
-  background: #fff;
-    opacity: .3;
-    border-style: none;
-}
-#boxFour:focus {
-  background: #fff;
-    opacity: .3;
-    border-style: none;
-}
-#boxOne:hover {
-  background: #c10022;
-  opacity: .3;
-  border-style: none;
-}
-#boxTwo:hover {
-  background: #d99528;
-    opacity: .3;
-    border-style: none;
-}
-#boxThree:hover {
-  background: #81c341;
-    opacity: .3;
-    border-style: none;
-}
-#boxFour:hover {
-  background: #21c0d8;
-    opacity: .3;
-    border-style: none;
+p {
+  font-size: 12pt;
+  line-height: 24pt;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
 h1 {
-  color: Black;
-  z-index: 999;
-  font-weight: 500;
+  margin-left: 22.94%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 42pt;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
 }
-.about {
-    animation-delay: .2s;
+.about_me, .testimonials_desc {
+  max-width: 471px;
+  margin: auto;
+  margin-top: 67px;
 }
-.portfolio {
-    animation-delay: .5s;
+.break {
+  border-bottom: 1px solid black;
+  max-width: 772px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
-.contact {
-    animation-delay: .8s;
+.skills, .work_samples {
+  width: 215px;
 }
-.social {
-    animation-delay: 1.1s;
+.skills_img, .skills_desc, .work_image_top, .work_image_bottom {
+  margin: 0;
 }
-
-.popdown:hover{
-    opacity: .7;
+.skills_title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 18pt;
+margin-top:15px;
+  margin-bottom:15px;
 }
-
-.popDownWrapper {
-    max-width: 90%;
-    margin: auto;
-        text-align: center;
-    align-content: center;
-    padding-bottom: 5px;
+.skills_desc {
+margin-left: 26px;
 }
-.popDownWrapper a {
-    color: white;
-    font-weight: 300;
+.skills_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.close-popdown {
-    padding: 3px 8px 3px 8px;
-    background: #c10022;
-    border-radius: 3px;
+.work_image_bottom {
+margin-top: 25px;
 }
-a.portfolioLink {
-    color: #c10022;
-}
-.thumbnail {
-    margin: 3px;
-    margin-bottom: 18px;
-}
-.socialIcon {
-    max-width: 150px;
+.testimonials {
+margin-bottom: -42px;
 }
