@@ -11,7 +11,7 @@ img {
 
 /* line 11, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .personal_logo {
-  width: 60px; }
+  max-width: 60px; }
 
 /* line 14, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .body {
