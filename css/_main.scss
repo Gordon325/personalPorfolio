@@ -1,137 +1,75 @@
 /* My CSS */
 
-.stage {
-  max-width: 1080px;
+html {
+    background: url(/img/topography.png) !important;
+  background-attachment: fixed;
+}
+img {
+border-radius: 8px;
+}
+.body {
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  max-width: 984px;
+  padding-top: 20px;
   margin: auto;
-  margin-top: 25vh;
+  background: rgba(255,255,255,.6);
 }
-.contact-bar-top {
-  width: 100vw;
-  height: 32px;
-  position: fixed;
-  background: black;
-  top: 0;
-  left: 0;
-  text-align: center;
+.a_portfolio {
+  margin-top: -10px;
+  font-size: 9.8pt;
+  margin-bottom: 67px;
 }
-.contact-bar-bottom {
-  width: 100vw;
-  height: 32px;
-  position: fixed;
-  background: black;
-  bottom: 0;
-  left: 0;
-  text-align: center;
+p {
+  font-size: 12pt;
+  line-height: 24pt;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
-.contact-me {
-  color: white;
-  text-decoration: none;
+h1 {
+  margin-left: 22.94%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 42pt;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
 }
-.my-email {
-  margin-top: 5px;
-  animation: rubberBand ease 1s 11s;
+.about_me, .testimonials_desc {
+  max-width: 471px;
+  margin: auto;
+  margin-top: 67px;
 }
-.web-info {
-  
-  color: white;
-  margin-top: 5px;
-  animation: rubberBand ease 1s 11.3s;
+.break {
+  border-bottom: 1px solid black;
+  max-width: 772px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
-#main-message {
- animation: fade4 13s;
+.skills, .work_samples {
+  width: 215px;
 }
-#put-your-name-on-the-map, #build-a-brand, #make-it-happen {
- animation: fadeInRight ease 2s;
+.skills_img, .skills_desc, .work_image_top, .work_image_bottom {
+  margin: 0;
 }
-#together-we-can {
- animation: fadeInRight ease 1s;
+.skills_title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 18pt;
+margin-top:15px;
+  margin-bottom:15px;
 }
-#line-break { 
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 2s forwards;
+.skills_desc {
+margin-left: 26px;
 }
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1000;
-  }
-  to {
-    stroke-dashoffset: 2000;
-  }
+.skills_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-#web-print {
- animation: fadeInRight ease 3s;
+.work_image_bottom {
+margin-top: 25px;
 }
-
-p, a {
-    font-family: 'Advent Pro', sans-serif;
-    letter-spacing: 2px;
-    font-size: 1.2em
-}
-#put-your-name-on-the-map { 
-  animation: fade1 12s forwards;
-}
-
-@keyframes fade1 {
-  0%{opacity: 0;
-    transform: translate3d(2000px, 0, 0);}
-  10%{opacity: 1;}
-  20%{opacity: 1;
-  transform: none;}
-  30%{opacity: 1;}
-  40%{opacity: 0;}
-  50%{opacity: 0;}
-  60%{opacity: 0;}
-  70%{opacity: 0;}
-  80%{opacity: 0;}
-  90%{opacity: 0;}
-  100%{opacity: 0;}
-}
-
-#make-it-happen {
-  animation: fade2 12s forwards;
-}
-@keyframes fade2 {
- 0%{opacity: 0;}
-  10%{opacity: 0;}
-  20%{opacity: 0;}
-  30%{opacity: 0;}
-  40%{opacity: 1;}
-  50%{opacity: 1;}
-  60%{opacity: 0;}
-  70%{opacity: 0;}
-  80%{opacity: 0;}
-  90%{opacity: 0;}
-  100%{opacity: 0;}
-}
-#build-a-brand {
-  animation: fade3 12s forwards;
-}
-@keyframes fade3 {
- 0%{opacity: 0;}
-  10%{opacity: 0;}
-  20%{opacity: 0;}
-  30%{opacity: 0;}
-  40%{opacity: 0;}
-  50%{opacity: 0;}
-  60%{opacity: 1;}
-  70%{opacity: 1;}
-  80%{opacity: 0;}
-  90%{opacity: 0;}
-  100%{opacity: 0;}
-}
-
-@keyframes fade4 {
- 0%{opacity: 0;}
-  10%{opacity: 0;}
-  20%{opacity: 0;}
-  30%{opacity: 0;}
-  40%{opacity: 0;}
-  50%{opacity: 0;}
-  60%{opacity: 0;}
-  70%{opacity: 0;}
-  80%{opacity: 1;}
-  90%{opacity: 1;}
-  100%{opacity: 1;}
+.testimonials {
+margin-bottom: -42px;
 }
