@@ -80,3 +80,37 @@ margin-top: 25px;
 .testimonials {
 margin-bottom: -42px;
 }
+
+@media (max-width: 975px){
+    .body {
+display: none;
+    }
+    /** Mobile Message **/
+
+.mobile {
+    display: block !important;
+background: rgba(255,255,255,.8);
+    height: 100vh;
+    padding-top: 45px;
+}
+.mobile_h1, .mobile_p{
+    margin:auto;
+    max-width: 80%;
+}
+.mobile_h1 {
+font-size: 30pt;
+    }
+    .mobile_logo {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    
+}
+
+/** Mobile Message **/
+
+.mobile {
+display: none;
+}
