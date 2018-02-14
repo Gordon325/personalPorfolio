@@ -28383,78 +28383,92 @@ div.popdown-content footer button:hover {
 
 /* endof div.popdown-content*/
 /* MY CSS */
+/* line 11, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 html {
-    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
-  background-attachment: fixed;
-}
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
+  background-attachment: fixed; }
+
+/* line 15, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 img {
-border-radius: 8px;
-}
+  border-radius: 8px; }
+
+/* line 18, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .body {
   padding-left: 12.5px;
   padding-right: 12.5px;
   max-width: 984px;
   padding-top: 20px;
   margin: auto;
-  background: rgba(255,255,255,.6);
-}
+  background: rgba(255, 255, 255, 0.6); }
+
+/* line 26, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .a_portfolio {
   margin-top: -10px;
   font-size: 9.8pt;
-  margin-bottom: 67px;
-}
+  margin-bottom: 67px; }
+
+/* line 31, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 p {
   font-size: 12pt;
   line-height: 24pt;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
-}
+  font-family: 'Lato', sans-serif; }
+
+/* line 37, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 h1 {
   margin-left: 22.94%;
   margin-bottom: 0px;
   margin-top: 0px;
   font-size: 42pt;
   font-weight: 900;
-  font-family: 'Lato', sans-serif;
-}
+  font-family: 'Lato', sans-serif; }
+
+/* line 45, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .about_me, .testimonials_desc {
   max-width: 471px;
   margin: auto;
-  margin-top: 67px;
-}
+  margin-top: 67px; }
+
+/* line 50, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .break {
   border-bottom: 1px solid black;
   max-width: 772px;
   margin: auto;
   margin-top: 65px;
-  margin-bottom: 65px;
-}
+  margin-bottom: 65px; }
+
+/* line 57, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .skills, .work_samples {
-  width: 215px;
-}
+  width: 215px; }
+
+/* line 60, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .skills_img, .skills_desc, .work_image_top, .work_image_bottom {
-  margin: 0;
-}
+  margin: 0; }
+
+/* line 63, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .skills_title {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 18pt;
-margin-top:15px;
-  margin-bottom:15px;
-}
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/* line 70, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .skills_desc {
-margin-left: 26px;
-}
+  margin-left: 26px; }
+
+/* line 73, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .skills_wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
+
+/* line 78, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .work_image_bottom {
-margin-top: 25px;
-}
+  margin-top: 25px; }
+
+/* line 81, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/styles.scss */
 .testimonials {
-margin-bottom: -42px;
-}
+  margin-bottom: -42px; }
 
 /*# sourceMappingURL=styles.css.map */
