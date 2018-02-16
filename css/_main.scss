@@ -63,7 +63,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 18pt;
-margin-top:15px;
+  margin-top:15px;
   margin-bottom:15px;
 }
 .skills_desc {
@@ -103,8 +103,8 @@ margin-bottom: -42px;
     }
         
     .break {
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
     .skills {
         width: 80%;
@@ -123,6 +123,18 @@ margin-bottom: -42px;
         margin: auto;
         width: 80%;
         text-align: center;
+    }
+    .skills_title {
+        font-size: 14pt;
+        text-align: center;
+
+}
+    .skills_img {
+          margin: auto;
+        display: block;
+    }
+    .skills_desc {
+        margin-left: 0;
     }
 }
 

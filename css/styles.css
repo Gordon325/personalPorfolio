@@ -115,8 +115,8 @@ h1 {
     margin-top: 55px; }
   /* line 105, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .break {
-    margin-top: 45px;
-    margin-bottom: 45px; }
+    margin-top: 25px;
+    margin-bottom: 25px; }
   /* line 109, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .skills {
     width: 80%;
@@ -133,7 +133,18 @@ h1 {
   .work_samples {
     margin: auto;
     width: 80%;
-    text-align: center; } }
+    text-align: center; }
+  /* line 127, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  .skills_title {
+    font-size: 14pt;
+    text-align: center; }
+  /* line 132, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  .skills_img {
+    margin: auto;
+    display: block; }
+  /* line 136, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  .skills_desc {
+    margin-left: 0; } }
 
 /* MY CSS */
 
