@@ -81,36 +81,48 @@ margin-top: 25px;
 margin-bottom: -42px;
 }
 
-@media (max-width: 975px){
-    .body {
-display: none;
-    }
-    /** Mobile Message **/
+/* Mobile and Tablet */
 
-.mobile {
-    display: block !important;
-background: rgba(255,255,255,.8);
-    height: 100vh;
-    padding-top: 45px;
-}
-.mobile_h1, .mobile_p{
-    margin:auto;
-    max-width: 80%;
-}
-.mobile_h1 {
-font-size: 30pt;
-    }
-    .mobile_logo {
-        display: block;
-        max-width: 100%;
+@media (max-width: 975px){
+    h1 {
+        font-size: 24pt;
+        text-align: center;
+        padding: 0;
         margin: auto;
-        margin-bottom: 25px;
     }
     
+    .a_portfolio {
+      margin-top: -10px;
+      font-size: 9.8pt;
+      margin-bottom: 33px;
+    }
+    .about_me, .testimonials_desc {
+      max-width: 471px;
+      margin: auto;
+      margin-top: 55px;
+    }
+        
+    .break {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+    .skills {
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+        padding-bottom: 15px;
+    
+    }
+    .work_image_bottom, .work_image_top  {
+        margin-top: 10px;
+}
+    .work_image_bottom {
+        display: none;
+    }
+    .work_samples {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
 }
 
-/** Mobile Message **/
-
-.mobile {
-display: none;
-}
