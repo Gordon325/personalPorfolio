@@ -59,6 +59,9 @@ h1 {
 .skills_img, .skills_desc, .work_image_top, .work_image_bottom {
   margin: 0;
 }
+.skills_img{
+    width: 60px;
+}
 .skills_title {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
@@ -132,6 +135,7 @@ margin-bottom: -42px;
     .skills_img {
           margin: auto;
         display: block;
+        width: 60px;
     }
     .skills_desc {
         margin-left: 0;
