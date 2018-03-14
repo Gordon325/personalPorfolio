@@ -87,12 +87,32 @@ margin-left: 26px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
 }
 .work_image_bottom {
 margin-top: 25px;
 }
 .testimonials {
 margin-bottom: -42px;
+}
+
+.portfolioText {
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+button.portfolioLink {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+      font-size: 12pt;
+  line-height: 24pt;
+  font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px #888888;
+}
+button.portfolioLink:hover {
+box-shadow: 0px 0px 0px;
 }
 
 /* Mobile and Tablet */
