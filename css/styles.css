@@ -71,17 +71,21 @@ h1 {
 
 /* line 62, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .work_image_top, .work_image_bottom {
-  box-shadow: 3px 3px 15px #888888; }
+  box-shadow: 3px 3px 15px #888888;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
 
-/* line 66, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+/* line 68, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .work_image_top:hover, .work_image_bottom:hover {
-  box-shadow: 0px 0px; }
+  box-shadow: 0px 0px;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%); }
 
-/* line 69, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+/* line 73, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .skills_img {
   width: 60px; }
 
-/* line 72, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+/* line 76, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .skills_title {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
@@ -89,73 +93,75 @@ h1 {
   margin-top: 15px;
   margin-bottom: 15px; }
 
-/* line 79, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+/* line 83, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .skills_desc {
   margin-left: 26px; }
 
-/* line 82, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+/* line 86, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .skills_wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
 
-/* line 87, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+/* line 91, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .work_image_bottom {
   margin-top: 25px; }
 
-/* line 90, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+/* line 94, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
 .testimonials {
   margin-bottom: -42px; }
 
 /* Mobile and Tablet */
 @media (max-width: 975px) {
-  /* line 97, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 101, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   h1 {
     font-size: 24pt;
     text-align: center;
     padding: 0;
     margin: auto; }
-  /* line 104, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 108, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .a_portfolio {
     margin-top: -10px;
     font-size: 9.8pt;
     margin-bottom: 33px; }
-  /* line 109, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 113, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .about_me, .testimonials_desc {
     max-width: 471px;
     margin: auto;
     margin-top: 55px; }
-  /* line 115, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 119, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .break {
     margin-top: 25px;
     margin-bottom: 25px; }
-  /* line 119, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 123, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .skills {
     width: 80%;
     margin: auto;
     margin-top: 25px;
     padding-bottom: 15px; }
-  /* line 126, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 130, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .work_image_bottom, .work_image_top {
-    margin-top: 10px; }
-  /* line 129, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+    margin-top: 10px;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); }
+  /* line 135, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .work_image_bottom {
     display: none; }
-  /* line 132, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 138, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .work_samples {
     margin: auto;
     width: 80%;
     text-align: center; }
-  /* line 137, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 144, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .skills_title {
     font-size: 14pt;
     text-align: center; }
-  /* line 142, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 149, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .skills_img {
     margin: auto;
     display: block;
     width: 60px; }
-  /* line 147, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
+  /* line 154, /Users/gordonsmith/Desktop/p1-movie-trailer/personalPorfolio/css/_main.scss */
   .skills_desc {
     margin-left: 0; } }
 

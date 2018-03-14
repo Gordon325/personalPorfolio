@@ -61,10 +61,14 @@ h1 {
 }
 .work_image_top, .work_image_bottom {
     box-shadow: 3px 3px 15px #888888;
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .work_image_top:hover, .work_image_bottom:hover {
     box-shadow: 0px 0px;
+    -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 .skills_img{
     width: 60px;
@@ -125,6 +129,8 @@ margin-bottom: -42px;
     }
     .work_image_bottom, .work_image_top  {
         margin-top: 10px;
+        -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
     .work_image_bottom {
         display: none;
@@ -133,6 +139,7 @@ margin-bottom: -42px;
         margin: auto;
         width: 80%;
         text-align: center;
+
     }
     .skills_title {
         font-size: 14pt;
